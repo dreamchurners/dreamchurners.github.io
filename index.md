@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>DreamChurners_000</title>
+  <title>DreamChurners|Media</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <!-- Bootstrap core CSS -->
@@ -24,21 +24,20 @@
 
     @media (min-width: 800px) and (max-width: 850px) {
       .navbar:not(.top-nav-collapse) {
-        background: #1C2331 !important;
+        background: #FFFFFF !important;
       }
     }
-
   </style>
 </head>
 
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+  <nav class="navbar fixed-top navbar-expand-sm navbar-light white scrolling-navbar">
     <div class="container">
 
       <!-- Brand -->
-      <a class="navbar-brand" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
+      <a class="navbar-brand" href="https://dreamchurners.github.io/">
         <img src="./assets/dc-logo-mini.jpg" alt="DreamChurners">
         <strong>DreamChurners</strong>
       </a>
@@ -54,19 +53,18 @@
 
         <!-- Left -->
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./aboutus/index.html" target="_blank">About us</a>
+            <a class="nav-link" href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./services/index.html" target="_blank">Services</a>
+            <a class="nav-link" href="#aboutus">About us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./contactus/index.html" target="_blank">Contact us</a>
+            <a class="nav-link" href="#contactus">Contact us</a>
           </li>
         </ul>
 
@@ -113,7 +111,7 @@
     <div class="carousel-inner" role="listbox">
 
       <!--First slide-->
-      <div class="carousel-item active">
+      <div class="carousel-item active" id="home">
         <div class="view">
 
           <!--Video source-->
@@ -140,7 +138,7 @@
                   available. Create your own, stunning website.</strong>
               </p>
 
-              <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">Start
+              <a target="_blank" href="https://dreamchurners.github.io/" class="btn btn-outline-white btn-lg">Start
                 free tutorial
                 <i class="fas fa-graduation-cap ml-2"></i>
               </a>
@@ -160,19 +158,19 @@
         <div class="view">
         -->
 
-          <!--Video source-->
-          <!--
+      <!--Video source-->
+      <!--
           <video class="video-intro" autoplay loop muted>
             <source src="./assets/dc_intro.mp4" type="video/mp4">
           </video>
         -->
 
-          <!-- Mask & flexbox options-->
-          <!--
+      <!-- Mask & flexbox options-->
+      <!--
           <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
           -->
 
-            <!-- Content 
+      <!-- Content 
             <div class="text-center white-text mx-5 wow fadeIn">
               <h1 class="mb-4">
                 <strong>Learn Bootstrap 4 with MDB</strong>
@@ -188,17 +186,17 @@
                   available. Create your own, stunning website.</strong>
               </p>
 
-              <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">Start
+              <a target="_blank" href="https://dreamchurners.github.io/" class="btn btn-outline-white btn-lg">Start
                 free tutorial
                 <i class="fas fa-graduation-cap ml-2"></i>
               </a>
             </div>
             Content -->
-        <!--
+      <!--
           </div>
         -->
-          <!-- Mask & flexbox options-->
-        <!--
+      <!-- Mask & flexbox options-->
+      <!--
         </div>
       </div>
       -->
@@ -209,18 +207,18 @@
         <div class="carousel-item">
         <div class="view">
         -->
-          <!--Video source-->
-          <!--
+      <!--Video source-->
+      <!--
           <video class="video-intro" autoplay loop muted>
             <source src="./assets/dc_intro.mp4" type="video/mp4">
           </video>
           -->
-          <!-- Mask & flexbox options-->
-          <!--
+      <!-- Mask & flexbox options-->
+      <!--
           <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
           -->
 
-            <!-- Content 
+      <!-- Content 
             <div class="text-center white-text mx-5 wow fadeIn">
               <h1 class="mb-4">
                 <strong>Learn Bootstrap 4 with MDB</strong>
@@ -236,17 +234,17 @@
                   available. Create your own, stunning website.</strong>
               </p>
 
-              <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">Start
+              <a target="_blank" href="https://dreamchurners.github.io/" class="btn btn-outline-white btn-lg">Start
                 free tutorial
                 <i class="fas fa-graduation-cap ml-2"></i>
               </a>
             </div>
              Content -->
-            <!--
+      <!--
           </div>
            -->
-          <!-- Mask & flexbox options-->
-           <!--
+      <!-- Mask & flexbox options-->
+      <!--
         </div>
       </div>
       -->
@@ -272,65 +270,166 @@
   <!--Main layout-->
   <main>
     <div class="container">
-
-      <!--Section: Main info-->
-      <section class="mt-5 wow fadeIn">
-
-        <!--Grid row-->
-        <div class="row">
-
-          <!--Grid column-->
-          <div class="col-md-6 mb-4">
-
-            <img src="https://mdbootstrap.com/img/Marketing/mdb-press-pack/mdb-main.jpg" class="img-fluid z-depth-1-half"
-              alt="">
-
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-md-6 mb-4">
-
-            <!-- Main heading -->
-            <h3 class="h3 mb-3">We are the DreamChurners</h3>
-            <p>This website is designed to provide you the best of the best services in media and entertainment - Best wishes from 
-              <strong>DreamChurners</strong>.</p>
-            <p>Read details below to learn more about DreamChurners.</p>
-            <!-- Main heading -->
-
-            <hr>
-              <!--
-            <p>
-              <strong>400+</strong> material UI elements,
-              <strong>600+</strong> material icons,
-              <strong>74</strong> CSS animations, SASS files, templates, tutorials and many more.
-              <strong>Free for personal and commercial use.</strong>
-            </p>
-            -->
-            <!-- CTA 
-            <a target="_blank" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" class="btn btn-grey btn-md">Download
-              <i class="fas fa-download ml-1"></i>
-            </a>
-            <a target="_blank" href="https://mdbootstrap.com/docs/jquery/components/" class="btn btn-grey btn-md">Live
-              demo
-              <i class="far fa-image ml-1"></i>
-            </a>
-            -->
-          </div>
-          <!--Grid column-->
-
-        </div>
-        <!--Grid row-->
-
-      </section>
-      <!--Section: Main info-->
-
+<!--
       <hr class="my-5">
+-->
+
+
+
+
+
+
+<!-- Services accordion -->
+<!--
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button
+        class="accordion-button collapsed"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#flush-collapseOne"
+        aria-expanded="false"
+        aria-controls="flush-collapseOne"
+      >
+        Accordion Item #1
+      </button>
+    </h2>
+    <div
+      id="flush-collapseOne"
+      class="accordion-collapse collapse"
+      aria-labelledby="flush-headingOne"
+      data-mdb-parent="#accordionFlushExample"
+    >
+      <div class="accordion-body">
+           Films are impactful creative expressions; a powerful offering combining aesthetics, storyline, characters and technical expertise. As a dynamic experience, they engage all your senses. Films captivate your audience effectively.
+           
+           Taking inspiration from our churned dreams, we make it a point to speak to your audience in their language about what’s in their heart. Simple, memorable, engaging and effective is work is our benchmark. Our work puts across your message, your story in a manner that regales the audience. We craft films with lot of heart and passion, something that is evident in each of our works.
+           
+           Be it Brand films, corporate films, Youtube Video, OTT or TV production, we develop diverse media and grab audience attention. Right from pre-production to production and post-production, our service is seamless and spreads across all industries, all sectors and geographic locations. Our communication solutions are original, new, effective and impressive. We bring with us various offerings and services which strengthen your brand power.
+           
+           Viewers respond to the highly effective, unparalleled and almost permanent impressions we leave on their minds through our film Endeavour! Come, experience the magic with us!
+           - Corporate Films & More
+           - Ad Films & More
+           - OTT, New Media & More
+           - Broadcast Media & More
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button
+        class="accordion-button collapsed"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#flush-collapseTwo"
+        aria-expanded="false"
+        aria-controls="flush-collapseTwo"
+      >
+        Accordion Item #2
+      </button>
+    </h2>
+    <div
+      id="flush-collapseTwo"
+      class="accordion-collapse collapse"
+      aria-labelledby="flush-headingTwo"
+      data-mdb-parent="#accordionFlushExample"
+    >
+      <div class="accordion-body">
+         Get the correct and most importantly “best for you” consultation on where to start.
+         
+         Work with specialised teams who have plenty of experience on cloud specific technologies.
+         
+         Integrate it with existing systems or multiple platforms.
+         
+         Best of breed tools selection.
+         Get support on heterogeneous systems and technologies.
+         
+         Access to the best available talent.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button
+        class="accordion-button collapsed"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#flush-collapseThree"
+        aria-expanded="false"
+        aria-controls="flush-collapseThree"
+      >
+        Accordion Item #3
+      </button>
+    </h2>
+    <div
+      id="flush-collapseThree"
+      class="accordion-collapse collapse"
+      aria-labelledby="flush-headingThree"
+      data-mdb-parent="#accordionFlushExample"
+    >
+      <div class="accordion-body">
+Dream Churners Robotic Process Automation (RPA) services enables enterprises to accelerate performance, deliver real value and improve RoI through the application of intelligent process automation. Our end-to-end RPA services range from Assessment, design, RPA CoE, strategy to RPA implementation and support in improving productivity and achieving operational outcomes by reducing mundane and repetitive manual tasks. We help apply RPA solutions to drive business value, ultimately allowing companies to be efficient and become an “Automated Enterprise.”
+      </div>
+    </div>
+  </div>
+</div>
+
+-->
+
+
+
+
+<!-- Services media object-->
+
+<section id="services">
+   <div class="media">
+     <img class="d-flex align-self-start mr-3" src="./assets/mbr-1-696x464.jpg" alt="Generic placeholder image">
+     <div class="media-body">
+       <h5 class="mt-0 font-weight-bold">Top-aligned media</h5>
+       <p>
+     Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus
+         odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
+         Donec lacinia congue felis in faucibus.
+       </p>
+       <p>
+            Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus
+         et magnis dis parturient montes, nascetur ridiculus mus.
+        </p>
+     </div>
+   </div>
+</section>
+
+<!-- Services media object-->
+
+
+
+
+
+
+
+
+
+
+<!-- Services accordion -->
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       <!--Section: Main features & Quick Start-->
-      <section>
+      <section id="services">
 
-        <h3 class="h3 text-center mb-5">About DreamChurners</h3>
+        <h3 class="h3 text-center mb-5">Features and Demos</h3>
 
         <!--Grid row-->
         <div class="row wow fadeIn">
@@ -359,7 +458,8 @@
               </div>
               <div class="col-10">
                 <h5 class="feature-title">Detailed documentation</h5>
-                <p class="grey-text">Here we provide detailed user friendly documentation for your use of DreamChurners and its services.
+                <p class="grey-text">Here we provide detailed user friendly documentation for your use of DreamChurners
+                  and its services.
                 </p>
               </div>
             </div>
@@ -387,7 +487,9 @@
 
             <p class="h5 text-center mb-4">youtube</p>
             <div class="embed-responsive embed-responsive-16by9">
-              <<iframe width="530" height="393" src="https://www.youtube.com/embed/-KG5sJSUF68" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <<iframe width="530" height="393" src="https://www.youtube.com/embed/-KG5sJSUF68" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
             </div>
           </div>
           <!--/Grid column-->
@@ -403,7 +505,7 @@
       <!--Section: Not enough-->
       <section>
 
-        <h2 class="my-5 h3 text-center">Not enough?</h2>
+        <h2 class="my-5 h3 text-center">Our Services</h2>
 
         <!--First row-->
         <div class="row features-small mb-5 mt-3 wow fadeIn">
@@ -416,8 +518,8 @@
                 <i class="fas fa-check-circle fa-2x indigo-text"></i>
               </div>
               <div class="col-10">
-                <h6 class="feature-title">Content</h6>
-                <p class="grey-text">Content details
+                <h6 class="feature-title">Cloud</h6>
+                <p class="grey-text">Cloud service details
                 </p>
                 <div style="height:15px"></div>
               </div>
@@ -430,8 +532,8 @@
                 <i class="fas fa-check-circle fa-2x indigo-text"></i>
               </div>
               <div class="col-10">
-                <h6 class="feature-title">Content</h6>
-                <p class="grey-text">Content details
+                <h6 class="feature-title">Web Development</h6>
+                <p class="grey-text">Web development service details
                 </p>
                 <div style="height:15px"></div>
               </div>
@@ -444,8 +546,8 @@
                 <i class="fas fa-check-circle fa-2x indigo-text"></i>
               </div>
               <div class="col-10">
-                <h6 class="feature-title">Content</h6>
-                <p class="grey-text">Content details.</p>
+                <h6 class="feature-title">Automation</h6>
+                <p class="grey-text">Cloud automation service details.</p>
                 <div style="height:15px"></div>
               </div>
             </div>
@@ -457,8 +559,8 @@
                 <i class="fas fa-check-circle fa-2x indigo-text"></i>
               </div>
               <div class="col-10">
-                <h6 class="feature-title">Content</h6>
-                <p class="grey-text">Content details</p>
+                <h6 class="feature-title">Kubernetes</h6>
+                <p class="grey-text">Kubernetes Container services details</p>
                 <div style="height:15px"></div>
               </div>
             </div>
@@ -481,8 +583,8 @@
                 <i class="fas fa-check-circle fa-2x indigo-text"></i>
               </div>
               <div class="col-10">
-                <h6 class="feature-title">Content</h6>
-                <p class="grey-text">Content details
+                <h6 class="feature-title">Media</h6>
+                <p class="grey-text">Media Service details
                 </p>
                 <div style="height:15px"></div>
               </div>
@@ -495,8 +597,8 @@
                 <i class="fas fa-check-circle fa-2x indigo-text"></i>
               </div>
               <div class="col-10">
-                <h6 class="feature-title">Content</h6>
-                <p class="grey-text">Content details</p>
+                <h6 class="feature-title">Advertising</h6>
+                <p class="grey-text">Advertising Service details</p>
                 <div style="height:15px"></div>
               </div>
             </div>
@@ -508,8 +610,8 @@
                 <i class="fas fa-check-circle fa-2x indigo-text"></i>
               </div>
               <div class="col-10">
-                <h6 class="feature-title">Content</h6>
-                <p class="grey-text">Content details
+                <h6 class="feature-title">Movie Ads</h6>
+                <p class="grey-text">Movie Ads service details
                 </p>
                 <div style="height:15px"></div>
               </div>
@@ -522,8 +624,8 @@
                 <i class="fas fa-check-circle fa-2x indigo-text"></i>
               </div>
               <div class="col-10">
-                <h6 class="feature-title">Content</h6>
-                <p class="grey-text">Content details.</p>
+                <h6 class="feature-title">Training</h6>
+                <p class="grey-text">Training service details.</p>
                 <div style="height:15px"></div>
               </div>
             </div>
@@ -539,10 +641,11 @@
 
       <hr class="mb-5">
 
-      <!--Section: More-->
+      <!--Section: More
+      <section id="additionalservices"-->
       <section>
 
-        <h2 class="my-5 h3 text-center">...and even more</h2>
+        <h2 class="my-5 h3 text-center">Detailed Services</h2>
 
         <!--First row-->
         <div class="row features-small mt-5 wow fadeIn">
@@ -556,7 +659,8 @@
               </div>
               <div class="col-10 mb-2 pl-3">
                 <h5 class="feature-title font-bold mb-1">Automation</h5>
-                <p class="grey-text mt-2">We work closely with your software and infrastructure engineers to build infrastructure as code and automate provisioning of environments with other configurations.
+                <p class="grey-text mt-2">We work closely with your software and infrastructure engineers to build
+                  infrastructure as code and automate provisioning of environments with other configurations.
                 </p>
               </div>
             </div>
@@ -573,7 +677,8 @@
               </div>
               <div class="col-10 mb-2">
                 <h5 class="feature-title font-bold mb-1">Infrastructure updates</h5>
-                <p class="grey-text mt-2">We provide powerful solutions to secure and operate cloud-native applications in production.
+                <p class="grey-text mt-2">We provide powerful solutions to secure and operate cloud-native applications
+                  in production.
                 </p>
               </div>
             </div>
@@ -589,8 +694,8 @@
                 <i class="fas fa-comments fa-2x mb-1 indigo-text" aria-hidden="true"></i>
               </div>
               <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">Content</h5>
-                <p class="grey-text mt-2">Content details
+                <h5 class="feature-title font-bold mb-1">Content Delivery</h5>
+                <p class="grey-text mt-2">Content delivery service details
                 </p>
               </div>
             </div>
@@ -693,6 +798,320 @@
       <!--Section: More-->
 
     </div>
+
+    <!--Section: Main info-->
+    <section class="mt-5 wow fadeIn" id="aboutus">
+
+      <!--Grid row-->
+      <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-6 mb-4">
+
+          <img src="./assets/mbr-696x464.jpg" class="img-fluid z-depth-1-half"
+            alt="">
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-6 mb-4">
+
+          <!-- Main heading -->
+          <h3 class="h3 mb-3">We are the DreamChurners</h3>
+          <p>This website is designed to provide you the best of the best services in media and entertainment - Best
+            wishes from
+            <strong>DreamChurners</strong>.
+          </p>
+          <p>Read details below to learn more about DreamChurners.</p>
+          <!-- Main heading -->
+
+          <!--
+            <p>
+              <strong>400+</strong> material UI elements,
+              <strong>600+</strong> material icons,
+              <strong>74</strong> CSS animations, SASS files, templates, tutorials and many more.
+              <strong>Free for personal and commercial use.</strong>
+            </p>
+            -->
+          <!-- CTA 
+            <a target="_blank" href="https://dreamchurners.github.io/" class="btn btn-grey btn-md">ClickMe
+              <i class="fas fa-download ml-1"></i>
+            </a>
+            <a target="_blank" href="https://dreamchurners.github.io/" class="btn btn-grey btn-md">ClickMe
+              <i class="far fa-image ml-1"></i>
+            </a>
+            -->
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+    </section>
+    <!--Section: Main info-->
+
+    <!-- photos aboutus -->
+    <hr class="my-5">
+
+    <!--Section: About us-->
+    <section id="aboutus" class="text-center">
+
+      <!-- Heading -->
+      <h2 class="mb-5 font-weight-bold">About Us</h2>
+
+      <!--Grid row-->
+      <div class="row">
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-4">
+
+          <div class="view overlay z-depth-1-half">
+            <img src="./img/sample-picture.jpg" class="img-fluid" alt="">
+            <div class="mask rgba-white-slight"></div>
+
+            <h4 class="my-2 font-weight-bold">DreamChurners Team</h4>
+            <p class="grey-text">
+              We are a team of professional highly skilled in various areas. We have dedication and commitment to take
+              up your work and complete it with your entire satisfaction. Please feel free to contact us for additional
+              information and let us know how we can help you.
+            </p>
+          </div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-4">
+
+          <div class="view overlay z-depth-1-half">
+            <img src="./img/sample-picture.jpg" class="img-fluid" alt="">
+            <div class="mask rgba-white-slight"></div>
+
+
+            <h4 class="my-2 font-weight-bold">Arnold</h4>
+            <p class="grey-text">
+              Arnold is an ex-service man and has worked in Airforce Technical division. He has plenty of experience in
+              media services.
+            </p>
+          </div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-4">
+
+          <div class="view overlay z-depth-1-half">
+            <img src="./img/sample-picture.jpg" class="img-fluid" alt="">
+            <div class="mask rgba-white-slight"></div>
+
+
+            <h4 class="my-2 font-weight-bold">Jacob</h4>
+            <p class="grey-text">
+              Jacob has worked in Google and its cloud services. He has deployed architecture patterns in production.
+            </p>
+          </div>
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+      <!--Grid row-->
+      <div class="row">
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-4">
+
+          <div class="view overlay z-depth-1-half">
+            <img src="./img/sample-picture.jpg" class="img-fluid" alt="">
+            <div class="mask rgba-white-slight"></div>
+
+
+            <h4 class="my-4 font-weight-bold">Prabhu</h4>
+            <p class="grey-text">
+              Prabhu is the CTO of the company and has wide experience in many startups and prior to that has worked in
+              global corporate company.
+            </p>
+          </div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+          <div class="view overlay z-depth-1-half">
+            <img src="./img/sample-picture.jpg" class="img-fluid" alt="">
+            <div class="mask rgba-white-slight"></div>
+
+
+            <h4 class="my-4 font-weight-bold">Jayaram</h4>
+            <p class="grey-text">
+              Jayaram is the CEO of the company and has lots of passtion in media services. He takes to heart any work
+              he undertakes and has shown excellent servant leadership qualities.
+            </p>
+          </div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+          <div class="view overlay z-depth-1-half">
+            <img src="./img/sample-picture.jpg" class="img-fluid" alt="">
+            <div class="mask rgba-white-slight"></div>
+
+
+            <h4 class="my-4 font-weight-bold">Tom Cruise</h4>
+            <p class="grey-text">
+              Tom cruise is a popular actor........
+            </p>
+          </div>
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+    </section>
+    <!-- photos about us -->
+
+    <!-- Contact Us Block -->
+
+    <div class="container my-5 py-5 z-depth-1">
+
+
+      <!--Section: Content-->
+      <section class="px-md-5 mx-md-5 text-center text-lg-left dark-grey-text" id="contactus">
+
+        <h3 class="font-weight-bold">Contact Us</h3>
+
+        <p class="text-muted">
+          Our doors and windows are always open. Only during summer we keep the windows closed and sometimes during
+          winter and when it rains. So effectively only for 1 month in a year the windows will be open...
+          <br>
+          Dont worry we have bell at the door and so you can ring or you can write to us from your bedroom. Dont
+          hesitate to reach to us for anything....
+        </p>
+
+        <hr class="my-5">
+
+        <!--Grid row-->
+        <div class="row">
+
+          <!--Grid column-->
+          <div class="col-lg-5 col-md-12 mb-0 mb-md-0">
+
+            <h4 class="font-weight-bold">Call or email</h4>
+
+            <p class="text-muted mb-4">
+              Contact details below:
+            </p>
+              <!--
+            <p class="font-weight-bold">United States:</p>
+            <p class="mb-2"><a href="#">Contact US office</a></p>
+            <p class="mb-2">+ 800 123 456</p>
+            <p class="mb-4">Office hours: 09:00am to 05:00pm IST</p>
+
+            <p class="font-weight-bold">India:</p>
+            <p class="mb-2"><a href="#">Contact India office</a></p>
+            <p class="mb-2">+ 91 123 456</p>
+            <p class="mb-4">Office hours: 09:00am to 05:00pm EST</p>
+                -->
+            <p class="font-weight-bold">Canada:</p>
+            <p class="mb-2"><a href="#">Contact Canada office</a></p>
+            <p class="mb-2">14993, 101A Avenue, Surrey, BC V3R 0T1</p>
+            <p class="mb-2">+ 1(908) 248 4779</p>
+            <p class="mb-4">Working hours: 09:00am to 05:00pm EST</p>
+
+            <p class="font-weight-bold">Email:</p>
+            <p class="mb-2"><a href="#">contactus@dreamchurners.com</a></p>
+
+
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-7 col-md-12 mb-4 mb-md-0">
+
+            <!--Grid row-->
+            <div class="row">
+
+              <!--Grid column-->
+              <div class="col-md-6">
+
+                <!-- Material outline input -->
+                <div class="md-form md-outline mb-0">
+                  <input type="text" id="form-first-name" class="form-control">
+                  <label for="form-first-name">First name</label>
+                </div>
+
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-6">
+
+                <!-- Material outline input -->
+                <div class="md-form md-outline mb-0">
+                  <input type="text" id="form-last-name" class="form-control">
+                  <label for="form-last-name">Last name</label>
+                </div>
+
+              </div>
+              <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+
+            <!-- Material outline input -->
+            <div class="md-form md-outline mt-3">
+              <input type="text" id="form-company" class="form-control">
+              <label for="form-company">Company name</label>
+            </div>
+
+            <!-- Material outline input -->
+            <div class="md-form md-outline mt-3">
+              <input type="email" id="form-email" class="form-control">
+              <label for="form-email">E-mail</label>
+            </div>
+
+            <!-- Material outline input -->
+            <div class="md-form md-outline mt-3">
+              <input type="number" id="form-number" class="form-control">
+              <label for="form-number">Phone</label>
+            </div>
+
+            <select class="browser-default custom-select" style="color: #757575bd">
+              <option selected>Select department</option>
+              <option value="1">US Office</option>
+              <option value="2">India Office</option>
+              <option value="3">Canada Office</option>
+            </select>
+
+            <!-- Material outline input -->
+            <div class="md-form md-outline">
+              <input type="text" id="form-subject" class="form-control">
+              <label for="form-subject">Subject</label>
+            </div>
+
+            <!--Material textarea-->
+            <div class="md-form md-outline mb-3">
+              <textarea id="form-message" class="md-textarea form-control" rows="3"></textarea>
+              <label for="form-message">How we can help?</label>
+            </div>
+            <button type="submit" class="btn btn-info btn-sm ml-0">Submit<i
+                class="far fa-paper-plane ml-2"></i></button>
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+      </section>
+      <!--Section: Content-->
+    </div>
+
+    <!-- Contact Us Block -->
+
   </main>
   <!--Main layout-->
 
@@ -701,12 +1120,11 @@
 
     <!--Call to action
     <div class="pt-4">
-      <a class="btn btn-outline-white" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank"
-        role="button">Download MDB
+      <a class="btn btn-outline-white" href="https://dreamchurners.github.io/" target="_blank"
+        role="button">ClickMe
         <i class="fas fa-download ml-2"></i>
       </a>
-      <a class="btn btn-outline-white" href="https://mdbootstrap.com/education/bootstrap/" target="_blank" role="button">Start
-        free tutorial
+      <a class="btn btn-outline-white" href="https://dreamchurners.github.io/" target="_blank" role="button">Start training
         <i class="fas fa-graduation-cap ml-2"></i>
       </a>
     </div>
@@ -732,19 +1150,19 @@
         <i class="fab fa-google-plus-g mr-3"></i>
       </a>
 
-      <a href="https://dribbble.com/mdbootstrap" target="_blank">
+      <a href="https://dreamchurners.github.io" target="_blank">
         <i class="fab fa-dribbble mr-3"></i>
       </a>
 
-      <a href="https://pinterest.com/mdbootstrap" target="_blank">
+      <a href="https://dreamchurners.github.io" target="_blank">
         <i class="fab fa-pinterest mr-3"></i>
       </a>
 
-      <a href="https://github.com/mdbootstrap/bootstrap-material-design" target="_blank">
+      <a href="https://dreamchurners.github.io" target="_blank">
         <i class="fab fa-github mr-3"></i>
       </a>
 
-      <a href="http://codepen.io/mdbootstrap/" target="_blank">
+      <a href="https://dreamchurners.github.io/" target="_blank">
         <i class="fab fa-codepen mr-3"></i>
       </a>
       -->
