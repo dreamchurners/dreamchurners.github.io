@@ -29,7 +29,16 @@
       .navbar:not(.top-nav-collapse) {
         background: #FFFFFF !important;
       }
+      p
+      {
+        display: block;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 5;
+        margin-right: 0;
+      }
     }
+
   </style>
 </head>
 
@@ -38,12 +47,12 @@
 
 
   <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand-sm navbar-light white scrolling-navbar">
+  <nav class="navbar fixed-top navbar-expand-sm navbar-dark scrolling-navbar">
     <div class="container">
 
       <!-- Brand -->
       <a class="navbar-brand" href="https://dreamchurners.github.io/">
-        <img src="./assets/dc-logo-mini.jpg" alt="DreamChurners">
+        <img src="./assets/favicon.ico" alt="DreamChurners">
         <strong>Dream Churners</strong>
       </a>
 
@@ -58,6 +67,11 @@
 
         <!-- Left -->
         <ul class="navbar-nav mr-auto">
+          <li class="nav-item"></li>
+        </ul>  
+
+        <!-- Right -->
+        <ul class="navbar-nav nav-flex-icons">
           <li class="nav-item">
             <a class="nav-link" href="#home">Home
             </a>
@@ -71,31 +85,28 @@
           <li class="nav-item">
             <a class="nav-link" href="#contactus">Contact us</a>
           </li>
-        </ul>
+        </ul>   
       </div>
 
     </div>
   </nav>
   <!-- Navbar -->
 
+
+
   <!--Carousel Wrapper-->
   <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
-
     <!--Slides-->
     <div class="carousel-inner" role="listbox">
-
       <!--First slide-->
       <div class="carousel-item active" id="home">
         <div class="view">
-
           <!--Video source-->
           <video class="video-intro embed-responsive" autoplay loop muted>
             <source src="./assets/dc_intro.mp4" type="video/mp4">
           </video>
-
           <!-- Mask & flexbox options-->
           <div class="mask rgba-dark-light d-flex justify-content-center align-items-center">
-
             <!-- Content -->
             <div class="mbr-overlay" style="opacity: 0.1; background-color: rgb(255, 255, 255);">
               <div class="align-center container">
@@ -111,37 +122,25 @@
               </div>
             </div>
             <!-- Content -->
-
           </div>
-
         </div>
       </div>
       <!--/First slide-->
-
     </div>
     <!--/.Slides-->
-
-
   </div>
   <!--/.Carousel Wrapper-->
 
 
 
-
-
   <!--Main layout-->
   <main>
-    <section id="services">
-    </section>
-
+    <section id="services"></section>
 
     <!--Section: SERVICES -->
-
-
     <h2 class="my-5 h3 text-center">Our Services</h2>
 
     <!-- Services media object-->
-
     <section class="mt-5 wow fadeIn">
 
       <!--Grid row1-->
@@ -317,13 +316,13 @@
             <h5 class="mb-3 align-center display-6">
               <strong>Founder & Technology Director</strong>
             </h5>
-            <p class="grey-text">
+            <p class="grey-text" style="text-align:left">
               Prabhu T has been in the IT field for over 20+ years, most of which has been in technology leadership
               positions within large enterprises and global organizations. Working in the Healthcare, Banking, Insurance
               and professional services industries, He has served as Solution Architect, Senior Project Manager, IT
               Operations Manager, Technical Director, CTO.
             </p>
-            <p class="grey-text">
+            <p class="grey-text" style="text-align:left">
               He has also mentored dozens of prospective IT leaders through
               the years both in a formal leadership capacity and through volunteer work with local STEM programs.
               Specializes in distributed & cloud application integration architectures, developing standards,
@@ -345,13 +344,13 @@
             <h5 class="mb-3 justify-center display-6">
               <strong>Co-Founder & Media Director</strong>
             </h5>
-            <p class="grey-text justify-center">
+            <p class="grey-text" style="text-align:left">
               Jayaram is the CEO of the company and has lots of passtion in media services. He takes to heart any work
               he undertakes and has shown excellent servant leadership qualities.
             <h5 class="mb-3 align-center display-6">
               <strong>Co-Founder & Media Director</strong>
             </h5>
-            <p class="grey-text">
+            <p class="grey-text" style="text-align:left">
               Jayaram Sthanumalayan is a Bachelor of Engineering (with Honours) graduate from one of the leading
               Universities in the UK. He has been working as a top level IT professional for over a decade in some of
               the most acclaimed companies in the world. The geographies of his professional life spans from London,
@@ -381,7 +380,7 @@
             <h5 class="mb-3 justify-center display-6">
               <strong>Executive Director - Cinematography</strong>
             </h5>
-            <p class="grey-text">
+            <p class="grey-text" style="text-align:left">
               Jayanan Vincent is an Indian cinematographer. He is the son of cinematographer and director, A. Vincent,
               and elder brother to Ajayan Vincent. He is known for his work in English, Malayalam, Tamil, Telugu, and
               Hindi films and he is a member of the Indian Society of Cinematographers (ISC).
@@ -407,12 +406,12 @@
             <h5 class="mb-3 justify-center display-6">
               <strong>Head - TriCloudWorks</strong>
             </h5>
-            <p class="grey-text">
+            <p class="grey-text" style="text-align:left">
               Aravind is an highly effective technologist and has accomplished various roles as Architect/ DevOps
               Engineer/ Developer with over 15+ years of IT experience, worked in multiple cloud environments AWS, Azure
               and many other emerging/ modern technologies.
             </p>
-            <p class="grey-text">
+            <p class="grey-text" style="text-align:left">
               He has extensive knowledge in building Distributed
               applications, Microservices, multi-tier web applications, DevOps, Streaming Data, Event driven, Big Data
               and other Enterprise Solutions.
@@ -471,10 +470,10 @@
             <p class="font-weight-bold">India:</p>
             <p class="mb-2 fas fa-map-marker-alt">24/46 Elango Street, R Block, MMDA Colony, Choolaimedu, Chennai, Tamil
               Nadu 600106</p>
-            <p class="mb-2 fas fa-phone mt-1">+ 91(877) 872 9879</p>
+            <p class="mb-1 fas fa-phone mt-1">+ 91(877) 872 9879</p>
 
             <p class="font-weight-bold">Email:</p>
-            <p class="mb-2 fas fa-envelope mt-1 fa-1x"><a href="#">contactus@dreamchurners.com</a></p>
+            <p class="mb-1 fas fa-envelope mt-1 fa-1x"><a href="#">contactus@dreamchurners.com</a></p>
 
 
           </div>
@@ -514,6 +513,10 @@
             <!--Grid row-->
 
             <!-- Material outline input -->
+
+            <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+
+
             <div class="md-form md-outline mt-3">
               <input type="text" id="form-company" class="form-control">
               <label for="form-company">Company name</label>
@@ -548,8 +551,14 @@
               <textarea id="form-message" class="md-textarea form-control" rows="3"></textarea>
               <label for="form-message">How we can help?</label>
             </div>
-            <button type="submit" class="btn btn-info btn-sm ml-0">Submit<i
-                class="far fa-paper-plane ml-2"></i></button>
+
+            <!--
+            <button type="submit" class="btn btn-info btn-sm ml-0">Submit<i class="far fa-paper-plane ml-2"></i>
+            </button>
+            -->
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+          </form>
           </div>
           <!--Grid column-->
 
